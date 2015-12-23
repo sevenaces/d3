@@ -13,3 +13,5 @@ CSSStyleDeclaration_prototype.setProperty = function(name, value, priority) {
 module.exports = (new Function("window", "document",
   "return " + fs.readFileSync(path.join(__dirname, "d3.js"), "utf-8"))
 )(window, document);
+
+// TEST
